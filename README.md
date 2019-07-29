@@ -33,7 +33,7 @@ Abaixo segue um exemplo hardcore :) onde você pode sair de uma versão do Jooml
 -   Faça Upgrade do Joomla 1.5 para 2.5
 -   Configure o servidor para rodar php 5.3
 -   Instale o
-    [CMigrator](https://www.dropbox.com/s/151i7sujh4g5024/com_cj_cmigrator_1.0.1_j25j30.zip?dl=1)
+    [CMigrator]
 -   Copie o Banco de dados Wordpress para o mesmo Banco do Joomla 2.5
 -   Vá nas configurações do CMigrator e crie uma nova configuração,
     colocando em Parsing configuration \>\> Base site URL o endereço do

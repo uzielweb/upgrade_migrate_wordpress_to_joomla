@@ -20,22 +20,19 @@ As pastas de wp-content/uploads devem ser copiadas para a pasta images e a pasta
 
 Abaixo segue um exemplo hardcore :) onde você pode sair de uma versão do Joomla 1.5 e fazer upgrade importando dados do wordpress (ou não) até a versão 3
 -   Configure o servidor para rodar php 5.2
--   Exemplo de configuração do htaccess:\
-    `# php -- BEGIN cPanel-generated handler, do not edit
-    # Defina o pacote “alt-php51” como a linguagem padrão de programação “PHP”.
+-   Exemplo de configuração do htaccess:
 <IfModule mime_module>
-AddHandler application/x-httpd-alt-php52___lsphp .php .php5 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit `                                             `
+    AddHandler application/x-httpd-alt-php52___lsphp .php .php5 .phtml
+</IfModule>                                        `
 -   Instale Joomla 1.5
 -   Instale o
     [Jupgrade](https://www.dropbox.com/s/wrywvrv7g8zrl0k/com_jupgrade-2.5.2.zip?dl=1)
 -   Habilite o Plugin MooTools Upgrade
--   Para prevenir erro na atualização vá via ftp em\
-     **jupgrade/installation/models/configuration.php**\
-     e **jupgrade/installation/models/database.php**\
-     e insira a seguinte linha na parte superior do script: \
-    `require_once JPATH_ROOT.'/jupgrade/libraries/cms/model/legacy.php'; `
+-   Para prevenir erro na atualização vá via ftp em
+     **jupgrade/installation/models/configuration.php**
+     e **jupgrade/installation/models/database.php**
+     e insira a seguinte linha na parte superior do script: 
+    require_once JPATH_ROOT.'/jupgrade/libraries/cms/model/legacy.php';
 -   Faça Upgrade do Joomla 1.5 para 2.5
 -   Configure o servidor para rodar php 5.3
 -   Instale o

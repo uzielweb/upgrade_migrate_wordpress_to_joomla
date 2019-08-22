@@ -20,8 +20,7 @@ As pastas de wp-content/uploads devem ser copiadas para a pasta images e a pasta
 
 Abaixo segue um exemplo hardcore :) onde você pode sair de uma versão do Joomla 1.5 e fazer upgrade importando dados do wordpress (ou não) até a versão 3
 -   Configure o servidor para rodar php 5.2
--   Exemplo de configuração do htaccess:
-                                      `
+-   Exemplo de configuração do htaccess:<IfModule mime_module>AddHandler application/x-httpd-alt-php52___lsphp .php .php5 .phtml</IfModule>                                     `
 -   Instale Joomla 1.5
 -   Instale o
     [Jupgrade](https://www.dropbox.com/s/wrywvrv7g8zrl0k/com_jupgrade-2.5.2.zip?dl=1)

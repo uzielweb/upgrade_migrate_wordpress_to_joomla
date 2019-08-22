@@ -50,6 +50,4 @@ Abaixo segue um exemplo hardcore :) onde você pode sair de uma versão do Jooml
     banco de dados do Joomla
 -   Atualize o Joomla para versões superiores
 
-[Pontal Online](http://pontalonline.com/)
 
-[97 FM](http://www.97fmfrutal.com.br/)
